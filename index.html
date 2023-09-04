@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Link na Bio</title>
+    <style>
+        body {
+            background-image: url('psi.jpg');
+               background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    background-position: center; /* Centraliza a imagem no contêiner */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    /* Outros estilos do contêiner aqui */
+
+            font-family: Arial, sans-serif;
+            
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .card {
+            background-color: #df97d5;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 28px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+            background-image: url('sua-foto-de-perfil.jpg'); /* Substitua pelo URL da sua foto de perfil */
+            background-size: cover;
+        }
+
+        .profile-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .social-links a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #e91e63; /* Cor de destaque ao passar o mouse */
+        }
+
+        .circle {
+            width: 145px;
+            height: 145px;
+            background-image: url('ivana.png'); /* Substitua pelo URL da sua imagem */
+            background-size: cover;
+            background-position: center;
+            border-radius: 40%; /* Define a forma do círculo */
+            border: 2px solid #080707; /* Borda opcional */
+        }S
+
+        .highlight-box {
+            background-color: #f515aa; /* Cor de fundo da caixa */
+            padding: 3px; /* Espaçamento interno da caixa */
+            border: 3px solid #f0ec0f; /* Borda da caixa */
+            border-radius: 5px; /* Arredondamento das bordas da caixa */
+            display: inline-block; /* Permite que a caixa se ajuste ao conteúdo */S
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="circle"></div>
+        <div class="profile-pic"></div>
+        <div class="profile-name">PSICÓLOGA<p>IVANA <P>CARVALHAL</div>
+        <div class="social-links">
+            <span class="highlight-box">   <a href="https://www.instagram.com/ivanaccarvalhal/" target="_blank">Instagram</a></span><p>
+            <span class="highlight-box">   <a href="https://www.facebook.com/seufacebook/" target="_blank">Facebook</a></span><p>
+                <span class="highlight-box">   <a href="https://www.twitter.com/seutwitter/" target="_blank">Contato</a></span>
+            <!-- Adicione mais links sociais conforme necessário -->
+        </div>
+    </div>
+</body>
+</html>
